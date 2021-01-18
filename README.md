@@ -2,10 +2,9 @@
 Simple Flask API for returning covid testing data for each month by country
 
 Deployed onto https://covid-monthly-flask-api.herokuapp.com/
+with available endpoint: `/country_tests_done`
 
-with available endpoint: /country_tests_done
-
-Receives a json request of the form : '{"country":"RO"}' for following countries: 'DE', 'DK', 'RO', 'ES'  and 'SE'
+Receives a json request of the form : `'{"country":"RO"}'` for following countries: 'DE', 'DK', 'RO', 'ES'  and 'SE'
 
 ### Using curl on heroku:
 `curl -X GET -H 'Content-Type: application/json' https://covid-monthly-flask-api.herokuapp.com/country_tests_done -d '{"country": "DK"}'`
