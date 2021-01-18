@@ -10,3 +10,6 @@ Receives a json request of the form : '{"country":"RO"}' for following countries
 ## Installation
 
 clone git repository: 
+'''
+git clone https://github.com/antiiles/covid_flask_api.git
+'''
