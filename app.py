@@ -18,9 +18,9 @@ def pageNotFound(e):
 def badRequest(e):
     return "<h1> Bad request <h1>", 400
 
-# @app.route("/")
-# def home():
-#     return "Hello, Flask!", 200
+@app.route("/")
+def home():
+    return "Hello there! General Kenobi...", 200
 
 # @app.route("/country_tests_done", methods=["GET"])
 # def get_all_data():
