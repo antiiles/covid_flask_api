@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.config["Debug"] =True
 
 total_tests = pd.read_csv(
-    "C:/Users/anko/Documents/git_staging/flask/flask_app/data/downsampled_data.csv"
+    "C:/Users/anko/Documents/git_staging/flask/covid_flask_api/data/downsampled_data.csv"
     ).set_index('year_week')
 
 @app.errorhandler(404)
