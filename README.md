@@ -12,7 +12,7 @@ Receives a json request of the form : `'{"country":"RO"}'` for following countri
 
 ## Installation with conda for running locally:
 
-clone git repository: 
+Using anaconda and pip which will care of all the dependencies
 
 1. open terminal
 2. clone repo: `git clone https://github.com/antiiles/covid_flask_api.git`
